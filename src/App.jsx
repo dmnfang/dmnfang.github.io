@@ -1,10 +1,10 @@
 import './App.css'
 
 const HIROBA_PRODUCTS = [
-  { name: 'Library',       desc: 'An editable collection of images and questions for all tools', icon: 'ti-photo',       iconClass: 'icon-library',     href: '#' },
+  { name: 'Library',       desc: 'An editable collection of images and questions for all tools', icon: 'ti-photo',       iconClass: 'icon-library',     href: 'https://dmnfang.github.io/library/'},
   { name: 'Cardbox',       desc: 'A collection of various flashcard games',                      icon: 'ti-cards',       iconClass: 'icon-cardbox',     href: '#' },
   { name: 'Flashcount',    desc: 'An app for practicing counting',                               icon: 'ti-123',         iconClass: 'icon-flashcount',  href: '#' },
-  { name: 'Momotaro',      desc: 'A unit review app',                                            icon: 'ti-sword',       iconClass: 'icon-momotaro',    href: '#' },
+  { name: 'Momotaro', desc: 'A unit review app', icon: 'ti-sword', iconClass: 'icon-momotaro', href: 'https://dmnfang.github.io/momotaro-v2/' },
   { name: 'Teacher Hunt',  desc: 'A signature collecting challenge app',                         icon: 'ti-user-search', iconClass: 'icon-teacherhunt', href: '#' },
   { name: 'Hako',          desc: 'An ALT scheduling and lesson building app',                    icon: 'ti-calendar',    iconClass: 'icon-hako',        href: '#' },
   { name: 'Lucky Card Game', desc: 'A companion app to a physical card swapping game',           icon: 'ti-star',        iconClass: 'icon-luckycard',   href: '#' },
