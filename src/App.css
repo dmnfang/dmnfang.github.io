@@ -65,10 +65,6 @@
   transition: box-shadow var(--motion-micro);
 }
 
-.product-card:hover {
-  box-shadow: var(--shadow-raised);
-}
-
 .product-card:has(.icon-library):hover     { border-color: var(--clr-neutral-600); }
 .product-card:has(.icon-cardbox):hover     { border-color: var(--clr-sage-400); }
 .product-card:has(.icon-flashcount):hover  { border-color: var(--clr-butter-400); }
