@@ -1,0 +1,125 @@
+.page {
+  min-height: 100vh;
+  padding: 48px 24px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.site-title {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-text-title);
+  margin-bottom: 24px;
+}
+
+.mega-card {
+  border-radius: var(--radius-container);
+  border: 0.5px solid var(--color-border-default);
+  overflow: hidden;
+  margin-bottom: 24px;
+  box-shadow: var(--shadow-raised);
+}
+
+.mega-card-header {
+  background: var(--color-bg-surface);
+  padding: 24px;
+}
+
+.section-title {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-text-title);
+  line-height: 32px;
+}
+
+.section-subtitle {
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--color-text-tertiary);
+  line-height: 24px;
+  margin-top: 2px;
+}
+
+.mega-card-body {
+  background: var(--clr-neutral-200);
+  padding: 16px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.product-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  background: var(--color-bg-surface);
+  border: 0.5px solid var(--color-border-default);
+  border-radius: var(--radius-card);
+  cursor: pointer;
+  text-decoration: none;
+  transition: box-shadow var(--motion-micro);
+}
+
+.product-card:hover {
+  box-shadow: var(--shadow-raised);
+}
+
+.product-card:has(.icon-library):hover     { border-color: var(--clr-neutral-600); }
+.product-card:has(.icon-cardbox):hover     { border-color: var(--clr-sage-400); }
+.product-card:has(.icon-flashcount):hover  { border-color: var(--clr-butter-400); }
+.product-card:has(.icon-momotaro):hover    { border-color: var(--clr-peach-400); }
+.product-card:has(.icon-teacherhunt):hover { border-color: var(--clr-sky-400); }
+.product-card:has(.icon-hako):hover        { border-color: var(--clr-lavender-400); }
+.product-card:has(.icon-luckycard):hover   { border-color: var(--clr-coral-400); }
+.product-card:has(.icon-skyclock):hover    { border-color: var(--clr-teal-400); }
+.product-card:has(.icon-inkdex):hover      { border-color: var(--clr-crimson-400); }
+
+.product-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-btn);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.product-name {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: var(--color-text-title);
+}
+
+.product-desc {
+  font-family: var(--font-body);
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--color-text-tertiary);
+}
+
+/* Product icon colors */
+.icon-library     { background: var(--clr-neutral-100); color: var(--clr-neutral-600); }
+.icon-cardbox     { background: var(--clr-sage-100);    color: var(--clr-sage-400); }
+.icon-flashcount  { background: var(--clr-butter-100);  color: var(--clr-butter-400); }
+.icon-momotaro    { background: var(--clr-peach-100);   color: var(--clr-peach-400); }
+.icon-teacherhunt { background: var(--clr-sky-100);     color: var(--clr-sky-400); }
+.icon-hako        { background: var(--clr-lavender-100);color: var(--clr-lavender-400); }
+.icon-luckycard   { background: var(--clr-coral-100);   color: var(--clr-coral-400); }
+.icon-skyclock    { background: var(--clr-teal-100);    color: var(--clr-teal-400); }
+.icon-inkdex      { background: var(--clr-crimson-100); color: var(--clr-crimson-400); }
