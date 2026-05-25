@@ -7,7 +7,7 @@ const HIROBA_PRODUCTS = [
   { name: 'Momotaro', desc: 'A unit review app', icon: 'ti-sword', iconClass: 'icon-momotaro', href: 'https://dmnfang.github.io/momotaro-v2/' },
   { name: 'Teacher Hunt',  desc: 'A signature collecting challenge app',                         icon: 'ti-user-search', iconClass: 'icon-teacherhunt', href: '#' },
   { name: 'Hako',          desc: 'An ALT scheduling and lesson building app',                    icon: 'ti-calendar',    iconClass: 'icon-hako',        href: '#' },
-  { name: 'Lucky Card Game', desc: 'A companion app to a physical card swapping game',           icon: 'ti-star',        iconClass: 'icon-luckycard',   href: '#' },
+  { name: 'Lucky Card Game', desc: 'A companion app to a physical card swapping game',           icon: 'ti-star',        iconClass: 'icon-luckycard',   href: 'https://dmnfang.github.io/luckycard/' },
   { name: 'Sky Clock',     desc: 'A simple clock for teaching the time',                         icon: 'ti-clock',       iconClass: 'icon-skyclock',    href: '#' },
 ]
 
