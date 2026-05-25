@@ -74,6 +74,7 @@
 .product-card:has(.icon-luckycard):hover   { border-color: var(--clr-coral-400); }
 .product-card:has(.icon-skyclock):hover    { border-color: var(--clr-teal-400); }
 .product-card:has(.icon-inkdex):hover      { border-color: var(--clr-crimson-400); }
+.product-card:has(.icon-schedulequiz):hover { border-color: var(--clr-neutral-600); }
 
 .product-icon {
   width: 40px;
