@@ -9,6 +9,7 @@ const HIROBA_PRODUCTS = [
   { name: 'Hako',          desc: 'An ALT scheduling and lesson building app',                    icon: 'ti-calendar',    iconClass: 'icon-hako',        href: '#' },
   { name: 'Lucky Card Game', desc: 'A companion app to a physical card swapping game',           icon: 'ti-star',        iconClass: 'icon-luckycard',   href: 'https://dmnfang.github.io/luckycard/' },
   { name: 'Sky Clock',     desc: 'A simple clock for teaching the time',                         icon: 'ti-clock',       iconClass: 'icon-skyclock',    href: '#' },
+  { name: 'Schedule Quiz', desc: 'A timetable-based day of the week quiz', icon: 'ti-layout-grid', iconClass: 'icon-schedulequiz', href: 'https://dmnfang.github.io/schedule-quiz/' },
 ]
 
 const OTHER_PRODUCTS = [
