@@ -117,8 +117,11 @@
 .icon-teacherhunt { background: var(--clr-sky-100);     color: var(--clr-sky-400); }
 .icon-hako        { background: var(--clr-lavender-100);color: var(--clr-lavender-400); }
 .icon-luckycard   { background: var(--clr-coral-100);   color: var(--clr-coral-400); }
-.icon-skyclock    { background: var(--clr-teal-100);    color: var(--clr-teal-400); }
+.icon-skyclock  { background: var(--clr-sky-100);      color: var(--clr-sky-400); }
+.icon-dateflash { background: var(--clr-lavender-100); color: var(--clr-lavender-400); }
 .icon-inkdex      { background: var(--clr-crimson-100); color: var(--clr-crimson-400); }
 .icon-schedulequiz { background: var(--clr-neutral-100); color: var(--clr-neutral-600); }
 
 .product-card:has(.icon-schedulequiz):hover { border-color: var(--clr-neutral-600); }
+.product-card:has(.icon-skyclock):hover  { border-color: var(--clr-sky-400); }
+.product-card:has(.icon-dateflash):hover { border-color: var(--clr-lavender-400); }
