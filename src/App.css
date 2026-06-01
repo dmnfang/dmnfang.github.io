@@ -120,3 +120,5 @@
 .icon-skyclock    { background: var(--clr-teal-100);    color: var(--clr-teal-400); }
 .icon-inkdex      { background: var(--clr-crimson-100); color: var(--clr-crimson-400); }
 .icon-schedulequiz { background: var(--clr-neutral-100); color: var(--clr-neutral-600); }
+
+.product-card:has(.icon-schedulequiz):hover { border-color: var(--clr-neutral-600); }

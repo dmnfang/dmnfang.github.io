@@ -1,19 +1,18 @@
 import './App.css'
 
-const HIROBA_PRODUCTS = [
-  { name: 'Library',       desc: 'An editable collection of images and questions for all tools', icon: 'ti-photo',       iconClass: 'icon-library',     href: 'https://dmnfang.github.io/library/'},
-  { name: 'Cardbox',       desc: 'A collection of various flashcard games',                      icon: 'ti-cards',       iconClass: 'icon-cardbox',     href: '#' },
-  { name: 'Flashcount',    desc: 'An app for practicing counting',                               icon: 'ti-123',         iconClass: 'icon-flashcount',  href: '#' },
-  { name: 'Momotaro', desc: 'A unit review app', icon: 'ti-sword', iconClass: 'icon-momotaro', href: 'https://dmnfang.github.io/momotaro-v2/' },
-  { name: 'Teacher Hunt',  desc: 'A signature collecting challenge app',                         icon: 'ti-user-search', iconClass: 'icon-teacherhunt', href: '#' },
-  { name: 'Hako',          desc: 'An ALT scheduling and lesson building app',                    icon: 'ti-calendar',    iconClass: 'icon-hako',        href: '#' },
-  { name: 'Lucky Card Game', desc: 'A companion app to a physical card swapping game',           icon: 'ti-star',        iconClass: 'icon-luckycard',   href: 'https://dmnfang.github.io/luckycard/' },
-  { name: 'Sky Clock',     desc: 'A simple clock for teaching the time',                         icon: 'ti-clock',       iconClass: 'icon-skyclock',    href: '#' },
-  { name: 'Schedule Quiz', desc: 'A timetable-based day of the week quiz', icon: 'ti-layout-grid', iconClass: 'icon-schedulequiz', href: 'https://dmnfang.github.io/schedule-quiz/' },
+const FRONTEND_PRODUCTS = [
+  { name: 'Cardbox',        desc: 'A collection of flashcard games for the classroom',          icon: 'ti-cards',        iconClass: 'icon-cardbox',      href: '#' },
+  { name: 'Momotaro',       desc: 'A unit review game',                                         icon: 'ti-sword',        iconClass: 'icon-momotaro',     href: 'https://dmnfang.github.io/momotaro-v2/' },
+  { name: 'Lucky Card Game',desc: 'A companion app to the Lucky Card physical card game',        icon: 'ti-star',         iconClass: 'icon-luckycard',    href: 'https://dmnfang.github.io/luckycard/' },
+  { name: 'Flashcount',     desc: 'An app for practicing counting',                              icon: 'ti-123',          iconClass: 'icon-flashcount',   href: '#' },
+  { name: 'Sky Clock',      desc: 'A simple clock for teaching the time',                        icon: 'ti-clock',        iconClass: 'icon-skyclock',     href: '#' },
+  { name: 'Quiz Hub',       desc: 'A collection of classroom quiz games',                        icon: 'ti-layout-grid',  iconClass: 'icon-schedulequiz', href: 'https://dmnfang.github.io/quiz-hub/' },
+  { name: 'Sign Hunt',      desc: 'A signature collecting challenge app',                        icon: 'ti-user-search',  iconClass: 'icon-teacherhunt',  href: '#' },
 ]
 
-const OTHER_PRODUCTS = [
-  { name: 'Inkdex', desc: 'A scripting tool for comic artists', icon: 'ti-pencil', iconClass: 'icon-inkdex', href: '#' },
+const BACKEND_PRODUCTS = [
+  { name: 'Library',        desc: 'An editable collection of images and content for all tools', icon: 'ti-photo',        iconClass: 'icon-library',      href: 'https://dmnfang.github.io/library/' },
+  { name: 'Hako',           desc: 'An ALT scheduling and lesson building app',                  icon: 'ti-calendar',     iconClass: 'icon-hako',         href: '#' },
 ]
 
 function ProductCard({ product }) {
@@ -51,16 +50,16 @@ function Section({ title, subtitle, products }) {
 function App() {
   return (
     <div className="page">
-      <div className="site-title">dmnfang</div>
+      <div className="site-title">Hiroba</div>
       <Section
-        title="Hiroba"
-        subtitle="A suite of educational tools for ALTs"
-        products={HIROBA_PRODUCTS}
+        title="ALT Front-end"
+        subtitle="Student-facing classroom tools"
+        products={FRONTEND_PRODUCTS}
       />
       <Section
-        title="Other Work"
-        subtitle="Various other things I made or am making"
-        products={OTHER_PRODUCTS}
+        title="ALT Back-end"
+        subtitle="Manage what your kids are learning"
+        products={BACKEND_PRODUCTS}
       />
     </div>
   )
