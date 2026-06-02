@@ -110,18 +110,23 @@
 }
 
 /* Product icon colors */
-.icon-library     { background: var(--clr-neutral-100); color: var(--clr-neutral-600); }
-.icon-cardbox     { background: var(--clr-sage-100);    color: var(--clr-sage-400); }
-.icon-flashcount  { background: var(--clr-butter-100);  color: var(--clr-butter-400); }
-.icon-momotaro    { background: var(--clr-peach-100);   color: var(--clr-peach-400); }
-.icon-teacherhunt { background: var(--clr-sky-100);     color: var(--clr-sky-400); }
-.icon-hako        { background: var(--clr-lavender-100);color: var(--clr-lavender-400); }
-.icon-luckycard   { background: var(--clr-coral-100);   color: var(--clr-coral-400); }
-.icon-skyclock  { background: var(--clr-sky-100);      color: var(--clr-sky-400); }
-.icon-dateflash { background: var(--clr-lavender-100); color: var(--clr-lavender-400); }
-.icon-inkdex      { background: var(--clr-crimson-100); color: var(--clr-crimson-400); }
-.icon-schedulequiz { background: var(--clr-neutral-100); color: var(--clr-neutral-600); }
+.icon-library      { background: var(--clr-neutral-100);  color: var(--clr-neutral-600); }
+.icon-cardbox      { background: var(--clr-sage-100);     color: var(--clr-sage-400); }
+.icon-flashcount   { background: var(--clr-butter-100);   color: var(--clr-butter-400); }
+.icon-momotaro     { background: var(--clr-peach-100);    color: var(--clr-peach-400); }
+.icon-hako         { background: var(--clr-lavender-100); color: var(--clr-lavender-400); }
+.icon-luckycard    { background: var(--clr-coral-100);    color: var(--clr-coral-400); }
+.icon-skyclock     { background: var(--clr-sky-100);      color: var(--clr-sky-400); }
+.icon-dateflash    { background: var(--clr-teal-100);     color: var(--clr-teal-400); }
+.icon-schedulequiz { background: var(--clr-neutral-100);  color: var(--clr-neutral-600); }
 
+/* Hover colors */
+.product-card:has(.icon-library):hover      { border-color: var(--clr-neutral-600); }
+.product-card:has(.icon-cardbox):hover      { border-color: var(--clr-sage-400); }
+.product-card:has(.icon-flashcount):hover   { border-color: var(--clr-butter-400); }
+.product-card:has(.icon-momotaro):hover     { border-color: var(--clr-peach-400); }
+.product-card:has(.icon-hako):hover         { border-color: var(--clr-lavender-400); }
+.product-card:has(.icon-luckycard):hover    { border-color: var(--clr-coral-400); }
+.product-card:has(.icon-skyclock):hover     { border-color: var(--clr-sky-400); }
+.product-card:has(.icon-dateflash):hover    { border-color: var(--clr-teal-400); }
 .product-card:has(.icon-schedulequiz):hover { border-color: var(--clr-neutral-600); }
-.product-card:has(.icon-skyclock):hover  { border-color: var(--clr-sky-400); }
-.product-card:has(.icon-dateflash):hover { border-color: var(--clr-lavender-400); }
