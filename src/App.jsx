@@ -6,6 +6,7 @@ const PUBLIC_PRODUCTS = [
   { name: 'Sky Clock',  desc: 'A sky-based clock for teaching the time',                icon: 'ti-clock',       iconClass: 'icon-skyclock',     href: 'https://dmnfang.github.io/skyclock/' },
   { name: 'Date Flash', desc: 'A flashcard app for months, dates and holidays',          icon: 'ti-calendar',    iconClass: 'icon-dateflash',    href: 'https://dmnfang.github.io/dateflash/' },
   { name: 'Quiz Hub',   desc: 'A collection of classroom quiz games',                   icon: 'ti-layout-grid', iconClass: 'icon-schedulequiz', href: 'https://dmnfang.github.io/quiz-hub/' },
+  { name: 'Memory Hunt', desc: 'A memory and number recognition game', icon: 'ti-grid-dots', iconClass: 'icon-memoryhunt', href: 'https://dmnfang.github.io/memory-hunt/' },
 ]
 
 const PRIVATE_PRODUCTS = [

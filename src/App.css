@@ -119,6 +119,7 @@
 .icon-skyclock     { background: var(--clr-sky-100);      color: var(--clr-sky-400); }
 .icon-dateflash    { background: var(--clr-teal-100);     color: var(--clr-teal-400); }
 .icon-schedulequiz { background: var(--clr-neutral-100);  color: var(--clr-neutral-600); }
+.icon-memoryhunt { background: var(--clr-sage-100); color: var(--clr-sage-400); }
 
 /* Hover colors */
 .product-card:has(.icon-library):hover      { border-color: var(--clr-neutral-600); }
@@ -130,3 +131,4 @@
 .product-card:has(.icon-skyclock):hover     { border-color: var(--clr-sky-400); }
 .product-card:has(.icon-dateflash):hover    { border-color: var(--clr-teal-400); }
 .product-card:has(.icon-schedulequiz):hover { border-color: var(--clr-neutral-600); }
+.product-card:has(.icon-memoryhunt):hover { border-color: var(--clr-sage-400); }
